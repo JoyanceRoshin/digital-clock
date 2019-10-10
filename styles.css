@@ -13,6 +13,7 @@
 .a, .d, .g {
     width: 50px;
     height: 8px;
+    transition: background 0.2s;
     background: rgb(1, 51, 1);
     margin: auto;
     margin-top: -5px;
@@ -20,6 +21,7 @@
 .b, .c, .e, .f {
     width: 8px;
     height: 45px;
+    transition: background 0.2s;
     background: rgb(1, 51, 1);
     display: inline-block;
     margin-top: 3px;
