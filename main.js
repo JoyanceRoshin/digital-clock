@@ -18,7 +18,7 @@ $(document).ready(function () {
         switch (temp) {
             case 0: $(lcd).find('.a,.b,.c,.e,.f,.g').addClass('active');
                 break;
-            case 1: $(lcd).find('.b,.e').addClass('active');
+            case 1: $(lcd).find('.c,.f').addClass('active');
                 break;
             case 2: $(lcd).find('.a,.c,.d,.e,.g').addClass('active');
                 break;
