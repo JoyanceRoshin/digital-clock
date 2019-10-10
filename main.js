@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('.a,.b,.c,.e,.f,.g').addClass('active');
     setInterval(function () {
         date = new Date();
-        sec = Math.round(date.getSeconds() + date.getMilliseconds()/1000);
+        sec = Math.floor(date.getSeconds() + date.getMilliseconds()/1000);
         min = date.getMinutes();
         hour = date.getHours();
         display(parseInt(sec / 10), '.lcd2');
